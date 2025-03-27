@@ -1,12 +1,10 @@
-Below is the README converted to README.md format with some "prettying up" applied—using Markdown enhancements like badges, emojis, code block highlighting, and a more polished layout. It’s still functional for GitHub and retains all the original content with a cleaner, more visually appealing style.
-
 * * *
 
 RconWebApp for Unreal Tournament
 
 License UT99 UT2004
 
- ![📝](https://abs-0.twimg.com/emoji/v2/svg/1f4dd.svg "Memo") Description
+<img src="https://abs-0.twimg.com/emoji/v2/svg/1f4dd.svg" alt="Memo" width="20" height="20"> Description
 
 RconWebApp is a custom UnrealScript web application crafted by K6\_Grimm to deliver a modern, HTTPS-compatible remote control (RCON) interface for Unreal Tournament servers—supporting both UT99 and UT2004. Say goodbye to the clunky, outdated built-in web admin interfaces! This project empowers server admins to manage their games via HTTP requests from a browser or a custom front-end, leveraging Unreal Tournament's web server framework for a lightweight, secure, and flexible solution.
 
@@ -14,37 +12,37 @@ Included are two UnrealScript files (RconWebApp.uc for UT99 and UT2004) and a PH
 
 * * *
 
- ![✨](https://abs-0.twimg.com/emoji/v2/svg/2728.svg "Sparkles") Features
+<img src="https://abs-0.twimg.com/emoji/v2/svg/2728.svg" alt="Sparkles" width="20" height="20"> Features
 
 *   Player Management:
     
-    *    ![👢](https://abs-0.twimg.com/emoji/v2/svg/1f462.svg "Woman’s boots") Kick players by name (UT99 & UT2004).
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f462.svg" alt="Woman’s boots" width="20" height="20"> Kick players by name (UT99 & UT2004).
         
-    *    ![🚫](https://abs-0.twimg.com/emoji/v2/svg/1f6ab.svg "No entry sign") Kick and ban players (UT99: IP-based, UT2004: ID-based).
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f6ab.svg" alt="No entry sign" width="20" height="20"> Kick and ban players (UT99: IP-based, UT2004: ID-based).
         
-    *    ![✅](https://abs-0.twimg.com/emoji/v2/svg/2705.svg "White heavy check mark") Unban players (UT99: by IP, UT2004: by name for ID bans).
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/2705.svg" alt="White heavy check mark" width="20" height="20"> Unban players (UT99: by IP, UT2004: by name for ID bans).
         
-    *    ![📋](https://abs-0.twimg.com/emoji/v2/svg/1f4cb.svg "Clipboard") List connected players (name, ping, IP).
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f4cb.svg" alt="Clipboard" width="20" height="20"> List connected players (name, ping, IP).
         
 *   Server Management:
     
-    *    ![ℹ️](https://abs-0.twimg.com/emoji/v2/svg/2139.svg "Information source") Show server info (name, map, player count).
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/2139.svg" alt="Information source" width="20" height="20"> Show server info (name, map, player count).
         
-    *    ![📜](https://abs-0.twimg.com/emoji/v2/svg/1f4dc.svg "Scroll") List bans (UT99: IPs, UT2004: IDs or IPs).
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f4dc.svg" alt="Scroll" width="20" height="20"> List bans (UT99: IPs, UT2004: IDs or IPs).
         
-    *    ![🔄](https://abs-0.twimg.com/emoji/v2/svg/1f504.svg "Anticlockwise downwards and upwards open circle arrows") Restart the server on the current map.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f504.svg" alt="Anticlockwise downwards and upwards open circle arrows" width="20" height="20"> Restart the server on the current map.
         
-    *    ![🗺️](https://abs-0.twimg.com/emoji/v2/svg/1f5fa.svg "World map") Change maps with optional gametype.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f5fa.svg" alt="World map" width="20" height="20"> Change maps with optional gametype.
         
-    *    ![🔒](https://abs-0.twimg.com/emoji/v2/svg/1f512.svg "Lock") Set/clear game password.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f512.svg" alt="Lock" width="20" height="20"> Set/clear game password.
         
-    *    ![🏷️](https://abs-0.twimg.com/emoji/v2/svg/1f3f7.svg "Label") Set server name.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f3f7.svg" alt="Label" width="20" height="20"> Set server name.
         
 *   Extras:
     
-    *    ![💬](https://abs-0.twimg.com/emoji/v2/svg/1f4ac.svg "Speech balloon") Send "say" messages to all players.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f4ac.svg" alt="Speech balloon" width="20" height="20"> Send "say" messages to all players.
         
-    *    ![⚙️](https://abs-0.twimg.com/emoji/v2/svg/2699.svg "Gear") Run console commands with admin privileges.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/2699.svg" alt="Gear" width="20" height="20"> Run console commands with admin privileges.
         
 *   Cross-Version Support:
     
@@ -54,18 +52,18 @@ Included are two UnrealScript files (RconWebApp.uc for UT99 and UT2004) and a PH
         
 *   Security:
     
-    *    ![🔐](https://abs-0.twimg.com/emoji/v2/svg/1f510.svg "Closed lock with key") Password-protected via HTTP Basic Auth.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f510.svg" alt="Closed lock with key" width="20" height="20"> Password-protected via HTTP Basic Auth.
         
-    *    ![📝](https://abs-0.twimg.com/emoji/v2/svg/1f4dd.svg "Memo") Logs actions for auditing.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f4dd.svg" alt="Memo" width="20" height="20"> Logs actions for auditing.
         
 *   PHP Sample Code:
     
-    *    ![🛠️](https://abs-0.twimg.com/emoji/v2/svg/1f6e0.svg "Hammer and wrench") A web interface sample to inspire custom projects.
+    *    <img src="https://abs-0.twimg.com/emoji/v2/svg/1f6e0.svg" alt="Hammer and wrench" width="20" height="20"> A web interface sample to inspire custom projects.
         
 
 * * *
 
- ![🛠️](https://abs-0.twimg.com/emoji/v2/svg/1f6e0.svg "Hammer and wrench") Compile Instructions for the .uc File
+<img src="https://abs-0.twimg.com/emoji/v2/svg/1f6e0.svg" alt="Hammer and wrench" width="20" height="20"> Compile Instructions for the .uc File
 
 To use RconWebApp, compile the UnrealScript (.uc) file into a .u package for your server.
 
@@ -113,7 +111,7 @@ Steps
 
 * * *
 
- ![📦](https://abs-0.twimg.com/emoji/v2/svg/1f4e6.svg "Package") Install Instructions for .uc and .ini
+<img src="https://abs-0.twimg.com/emoji/v2/svg/1f4e6.svg" alt="Package" width="20" height="20"> Install Instructions for .uc and .ini
 
 Install the .u File
 
@@ -209,7 +207,7 @@ Final Steps
 
 * * *
 
- ![⚙️](https://abs-0.twimg.com/emoji/v2/svg/2699.svg "Gear") Configuration Example
+<img src="https://abs-0.twimg.com/emoji/v2/svg/2699.svg" alt="Gear" width="20" height="20"> Configuration Example
 
 RconWebApp.ini
 
@@ -223,7 +221,7 @@ ini
 
 * * *
 
- ![🚀](https://abs-0.twimg.com/emoji/v2/svg/1f680.svg "Rocket") Usage
+<img src="https://abs-0.twimg.com/emoji/v2/svg/1f680.svg" alt="Rocket" width="20" height="20"> Usage
 
 *   Browser: Append ?cmd=<command> (e.g., http://<server\_ip>:<port>/rcon/?cmd=admin%20players).
     
@@ -232,7 +230,7 @@ ini
 
 * * *
 
- ![📌](https://abs-0.twimg.com/emoji/v2/svg/1f4cc.svg "Pushpin") Notes
+<img src="https://abs-0.twimg.com/emoji/v2/svg/1f4cc.svg" alt="Pushpin" width="20" height="20"> Notes
 
 *   Open ListenPort in your firewall.
     
@@ -245,4 +243,3 @@ ini
 
 * * *
 
-This README.md is now GitHub-ready with a polished look, using emojis for visual flair, badges for quick info, and highlighted code blocks for clarity. Let me know if you want more adjustments!
