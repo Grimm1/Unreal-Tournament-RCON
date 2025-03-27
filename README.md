@@ -67,7 +67,7 @@ Included are two UnrealScript files (RconWebApp.uc for UT99 and UT2004) and a PH
 
 To use RconWebApp, compile the UnrealScript (.uc) file into a .u package for your server.
 
-IF YOU DO NOT WANT TO COMPILE THE .U FILE YOURSELF USE THE PRECOMPILED .U FILES FROM THIS REPOSOITORY ANBD SKIP TO THE NEXT STEP!
+IF YOU DO NOT WANT TO COMPILE THE .U FILE YOURSELF USE THE PRECOMPILED .U FILES FROM THIS REPOSITORY AND SKIP TO THE NEXT STEP!
 
 Prerequisites
 
