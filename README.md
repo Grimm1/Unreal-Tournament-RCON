@@ -65,7 +65,9 @@ Included are two UnrealScript files (RconWebApp.uc for UT99 and UT2004) and a PH
 
 <img src="https://abs-0.twimg.com/emoji/v2/svg/1f6e0.svg" alt="Hammer and wrench" width="20" height="20"> Compile Instructions for the .uc File
 
-To use RconWebApp, compile the UnrealScript (.uc) file into a .u package for your server. or just upload the compiled versions to the relative System folder for the game
+To use RconWebApp, compile the UnrealScript (.uc) file into a .u package for your server.
+
+IF YOU DO NOT WANT TO COMPILE THE .U FILE YOURSELF USE THE PRECOMPILED .U FILES FROM THIS REPOSOITORY ANBD SKIP TO THE NEXT STEP!
 
 Prerequisites
 
